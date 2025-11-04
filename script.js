@@ -6,4 +6,5 @@ function greet() {
 console.log("Website loaded!");
 console.log("Website loaded!1");
 console.log("Website loaded!3");
-
+console.log("Website loaded!4");
+console.log("Website loaded!5");
