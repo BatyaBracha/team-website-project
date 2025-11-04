@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- 🔧 Hotfix: היה חסר חיבור ל-CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Login</h1>
+  <!-- 🔧 Hotfix: הוספנו name ו-required, טיפוס שדה נכון, וכפתור submit מפורש -->
+  <form method="post" action="#">
+    <input type="email" name="email" placeholder="Email" required autocomplete="username" />
+    <input type="password" name="password" placeholder="Password" required autocomplete="current-password" />
+    <button type="submit">Sign In</button>
+  </form>
+</body>
+</html>
